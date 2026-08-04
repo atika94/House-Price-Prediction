@@ -1,13 +1,61 @@
-.ipynb_checkpoints/
+# ==========================
+# Python
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# virtual environments
+# Virtual Environments
 venv/
 env/
+.venv/
 
-# OS files
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
 
-catboost_info
+# ==========================
+# Machine Learning
+# ==========================
+
+# CatBoost generated files
+catboost_info/
+
+# Saved models
+models/
+*.joblib
+*.pkl
+*.pickle
+
+# Logs
+logs/
+*.log
+
+# TensorBoard
+runs/
+
+# Temporary files
+*.tmp
+*.bak
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# Build files
+# ==========================
+build/
+dist/
